@@ -52,6 +52,8 @@ namespace Chat
             dTimer.Tick += new EventHandler(aggiornamento_dTimer);
             dTimer.Interval = new TimeSpan(0, 0, 0, 0, 250);
             dTimer.Start();
+
+            txtMessaggio.Clear();
         }
 
         private void aggiornamento_dTimer(object sender, EventArgs e)
