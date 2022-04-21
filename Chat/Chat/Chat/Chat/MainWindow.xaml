@@ -1,0 +1,20 @@
+﻿<Window x:Class="Chat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chat"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lst" Margin="39,37,524,36"/>
+        <TextBox x:Name="txtIp" HorizontalAlignment="Left" Margin="619,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPorta" HorizontalAlignment="Left" Margin="619,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtMessaggio" HorizontalAlignment="Left" Margin="619,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="61"/>
+        <Button x:Name="btnInvia" Content="Invia" HorizontalAlignment="Left" Margin="648,378,0,0" VerticalAlignment="Top" Width="62" Click="btnInvia_Click"/>
+        <Label Content="IP" HorizontalAlignment="Left" Margin="669,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.594,0.646"/>
+        <Label Content="Porta" HorizontalAlignment="Left" Margin="660,145,0,0" VerticalAlignment="Top"/>
+        <Label Content="Messaggio" HorizontalAlignment="Left" Margin="648,255,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
